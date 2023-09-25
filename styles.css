@@ -42,7 +42,8 @@ h1 {
   }
   ul li a  {
     text-decoration: none;
-    background-color: antiquewhite;
+    border-color: bisque;
+    padding: 6px;
   }
   ul li a:hover{
     text-decoration: underline;
