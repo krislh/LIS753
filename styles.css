@@ -31,8 +31,19 @@ h1 {
     margin-right: 40px;
     margin-left: 20px;
   }
-  
-  figcaption {
+    figcaption {
     font-family: verdana;
     font-size: 12px;
+  }
+  a {
+    font-weight: Bold;
+    color:blue;
+
+  }
+  ul li a  {
+    text-decoration: none;
+    background-color: antiquewhite;
+  }
+  ul li a:hover{
+    text-decoration: underline;
   }
