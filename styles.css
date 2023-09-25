@@ -40,11 +40,9 @@ h1 {
     font-family: Verdana;
     color:blue;
     padding: 3px;
-
   }
   ul li a  {
     text-decoration: none;
-    border: 3px solid #5A644D;
   }
   ul li a:hover{
     text-decoration: underline;
