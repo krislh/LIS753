@@ -42,7 +42,7 @@ h1 {
   }
   ul li a  {
     text-decoration: none;
-    border-color: bisque;
+    border: 6px solid #5A644D;
     padding: 6px;
   }
   ul li a:hover{
