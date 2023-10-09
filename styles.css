@@ -5,7 +5,7 @@ h1#site-title {
   margin-left: 35px;
   text-align: center;
 }
-h1#site-article {
+h1#article-title {
   color: #5A644D;
   font-family: verdana;
   font-size: 30px;
@@ -16,7 +16,6 @@ h2 {
   color: #5A644D;
   font-family: verdana;
   font-size: 25px;
-  margin-left: 35px;
   text-align: left;
 }
   p {    
@@ -36,6 +35,14 @@ h2 {
     width: auto;
     height: auto;
     margin-bottom: 6px;
+  }
+  figure.main-image  {
+    background: palegoldenrod;
+    border: 3px solid #5A644D;
+  }
+  figure.section-image {
+    border:#5A644D;
+    padding: 12px;
   }
   p img {
     border: 4px solid #5A644D;
