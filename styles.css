@@ -6,12 +6,14 @@ h1#site-title {
   text-align: center;
   outline-width: 18px;
   outline-style: solid;
-  outline-color: palegoldenrod;
+  outline-color: #5A644D;
+}
+body {
+  background-color: palegoldenrod;
 }
 h1#article-title {
   color: #5A644D;
   font-family: verdana;
-  text-decoration: underline;
   font-size: 40px;
   margin-left: 25px;
   text-align:left;
@@ -21,9 +23,6 @@ h2 {
   font-family: verdana;
   font-size: 25px;
   text-align: left;
-  outline-width: 12px;
-  outline-style: solid;
-  outline-color: palegoldenrod;
 
 }
   p {    
@@ -43,8 +42,9 @@ h2 {
     margin-bottom: 6px;
   }
   figure.main-image  {
-    border: 3px solid #5A644D;
     padding: 12px;
+    width: auto;
+    height: auto;
 
   }
   figure.section-image {
