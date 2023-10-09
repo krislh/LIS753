@@ -23,8 +23,7 @@ h2 {
   font-family: verdana;
   font-size: 25px;
   text-align: left;
-
-}
+  }
   p {    
     font-family: verdana;
     color: black ;
@@ -61,7 +60,7 @@ h2 {
   }
     figcaption {
     font-family: verdana;
-    font-size: 18px;
+    font-size: 12px;
   }
   a {
     font-weight: Bold;
