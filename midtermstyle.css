@@ -1,0 +1,14 @@
+body {
+    background-color: lavender;
+}
+h1#site-title {
+    font-family: Helvetica;
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+}
+h2 {
+    font-family: Arial;
+    text-align: left;
+    font-size: 34;
+}
