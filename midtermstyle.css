@@ -1,5 +1,6 @@
 body {
     background-color: whitesmoke;
+    margin: 20px;
 }
 h1#site-title {
     font-family: Helvetica;
@@ -9,8 +10,8 @@ h1#site-title {
 }
 h2 {
     font-family: Arial;
-    text-align: left;
-    font-size: 34;
+    text-align: center;
+    font-size: 40px;
 }
 h3 {
     font-family: Arial;
@@ -23,3 +24,13 @@ p {
     text-align: left;
     font-size: medium;
 }
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+ul li a  {
+    text-decoration: none;
+  }
+  ul li a:hover{
+    text-decoration: underline;
+  }
