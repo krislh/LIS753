@@ -26,10 +26,19 @@ p {
 }
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-bottom: darkgreen;
 }
 ul li a  {
     text-decoration: none;
+    padding: 8px;
+    display: block;
+    background-color: darkgreen;
+    color:whitesmoke;
   }
   ul li a:hover{
     text-decoration: underline;
