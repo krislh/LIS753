@@ -20,6 +20,12 @@ h3 {
     font-size: large;
 
 }
+h4 {
+    font-family: Arial;
+    font-weight: bold;
+    text-align:left;
+    font-size: medium;
+}
 p {
     font-family: Arial;
     text-align: left;
@@ -43,4 +49,8 @@ nav ul li a  {
   }
   nav ul li a:hover{
     text-decoration: underline;
+  }
+  footer {
+    font-size: smaller;
+
   }
