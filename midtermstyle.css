@@ -1,5 +1,5 @@
 body {
-    background-color: lavender;
+    background-color: whitesmoke;
 }
 h1#site-title {
     font-family: Helvetica;
@@ -11,4 +11,15 @@ h2 {
     font-family: Arial;
     text-align: left;
     font-size: 34;
+}
+h3 {
+    font-family: Arial;
+    text-align: left;
+    font-size: large;
+
+}
+p {
+    font-family: Arial;
+    text-align: left;
+    font-size: medium;
 }
