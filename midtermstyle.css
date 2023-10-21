@@ -7,6 +7,7 @@ h1#site-title {
     text-align: center;
     padding: 20px;
     font-size: 48px;
+    color: darkgreen;
 }
 h2 {
     font-family: Arial;
@@ -24,7 +25,7 @@ p {
     text-align: left;
     font-size: medium;
 }
-ul {
+nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -33,13 +34,13 @@ ul {
     border-bottom: 5px;
     border-bottom: darkgreen;
 }
-ul li a  {
+nav ul li a  {
     text-decoration: none;
     padding: 8px;
     display: block;
     background-color: darkgreen;
     color:whitesmoke;
   }
-  ul li a:hover{
+  nav ul li a:hover{
     text-decoration: underline;
   }
