@@ -51,6 +51,13 @@ p {
 .site-nav .site-nav-item a:hover {
     text-decoration: underline;
 }
+.page-nav-img {
+    width: 150px;
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    padding: 5px;
+
+}
 .page-nav {
     list-style: square inside;
     border: 5px;
