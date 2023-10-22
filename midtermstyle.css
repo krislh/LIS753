@@ -6,13 +6,13 @@ h1#site-title {
     font-family: Helvetica;
     text-align: center;
     padding: 20px;
-    font-size: 48px;
+    font-size: 72px;
     color: darkgreen;
 }
 h2 {
     font-family: Arial;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
 }
 h3 {
     font-family: Arial;
@@ -31,7 +31,8 @@ p {
     text-align: left;
     font-size: medium;
 }
-nav ul {
+
+  .site-nav {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -39,18 +40,25 @@ nav ul {
     border-top: 5px;
     border-bottom: 5px;
     border-bottom: darkgreen;
-}
-nav ul li a  {
+  }
+.site-nav-item {
     text-decoration: none;
     padding: 8px;
     display: block;
     background-color: darkgreen;
     color:whitesmoke;
-  }
-  nav ul li a:hover{
+}
+.site-nav .site-nav-item a:hover {
     text-decoration: underline;
-  }
-  footer {
+}
+.page-nav {
+    text-wrap: pretty;
+    list-style: disc;
+    border: 5px;
+    border-color: darkgreen;
+    display: flex;
+}
+  .page-footer {
     font-size: smaller;
 
   }
