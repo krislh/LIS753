@@ -53,10 +53,16 @@ p {
 }
 .page-nav {
     text-wrap: pretty;
-    list-style: disc;
+    list-style: square inside;
     border: 5px;
     border-color: darkgreen;
-    display: flex;
+}
+.page-nav-item {
+    text-decoration: none;
+    padding: 8px;
+}
+.page-nav .page-nav-item a:hover {
+    text-decoration: underline;
 }
   .page-footer {
     font-size: smaller;
