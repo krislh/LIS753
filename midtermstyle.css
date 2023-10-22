@@ -52,7 +52,8 @@ p {
     text-decoration: underline;
 }
 #page-nav-img {
-    max-width: 25%;
+    object-fit: scale-down;
+    max-width: 150px;
     border: 1px solid darkgreen;
     border-radius: 4px;
     padding: 5px;
