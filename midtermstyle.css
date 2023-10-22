@@ -52,7 +52,7 @@ p {
     text-decoration: underline;
 }
 .page-nav-img {
-    width: 150px;
+    max-width: 25%;
     border: 1px solid darkgreen;
     border-radius: 4px;
     padding: 5px;
@@ -60,6 +60,7 @@ p {
 }
 .page-nav {
     list-style: square inside;
+    text-wrap: wrap;
     border: 5px;
     border-color: darkgreen;
 }
