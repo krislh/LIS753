@@ -1,6 +1,6 @@
 body {
     background-color: whitesmoke;
-    margin: 20px;
+    margin: 60px;
 }
 h1#site-title {
     font-family: Helvetica;
@@ -52,8 +52,8 @@ p {
     text-decoration: underline;
 }
 #page-nav-img {
-    width: 300px;
-    height: 200px;
+    width: 30px;
+    height: 20px;
     object-fit: scale-down;
     border: 1px solid darkgreen;
     border-radius: 4px;
@@ -73,7 +73,11 @@ p {
 .page-nav .page-nav-item a:hover {
     text-decoration: underline;
 }
-  .page-footer {
+#section-1 {
+    text-align: center;
+
+}
+#page-footer {
     font-size: smaller;
 
   }
