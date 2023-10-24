@@ -31,9 +31,7 @@ p {
     text-align: left;
     font-size: medium;
 }
-img {
-    align-items: right;
-}
+
   .site-nav {
     display: flex;
     justify-content: center;
@@ -54,8 +52,8 @@ img {
     text-decoration: underline;
 }
 #page-nav-img {
-    width: 30px;
-    height: 20px;
+    width: 500px;
+    height: 500px;
     object-fit: scale-down;
     border: 1px solid darkgreen;
     border-radius: 4px;
@@ -64,20 +62,21 @@ img {
 }
 .page-nav {
     list-style: square inside;
-    text-wrap: wrap;
     border: 5px;
     border-color: darkgreen;
 }
 .page-nav-item {
     text-decoration: none;
     padding: 8px;
+    border: 5px;
+    border-color: darkgreen;
 }
 .page-nav .page-nav-item a:hover {
     text-decoration: underline;
+    text-decoration-color: darkgreen;
 }
 #section-1 {
     text-align: center;
-
 }
 li {
     font-size: large;
@@ -88,5 +87,11 @@ li {
 
   }
   #footer-image {
-    
+    width: 200px;
+    height: 300px;
+    object-fit: scale-down;
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    padding: 5px;
+
   }
