@@ -31,7 +31,9 @@ p {
     text-align: left;
     font-size: medium;
 }
-
+img {
+    align-items: right;
+}
   .site-nav {
     display: flex;
     justify-content: center;
@@ -58,7 +60,7 @@ p {
     border: 1px solid darkgreen;
     border-radius: 4px;
     padding: 5px;
-    
+
 }
 .page-nav {
     list-style: square inside;
