@@ -58,7 +58,7 @@ p {
     border: 1px solid darkgreen;
     border-radius: 4px;
     padding: 5px;
-
+    
 }
 .page-nav {
     list-style: square inside;
@@ -75,6 +75,10 @@ p {
 }
 #section-1 {
     text-align: center;
+
+}
+li {
+    font-size: large;
 
 }
 #page-footer {
