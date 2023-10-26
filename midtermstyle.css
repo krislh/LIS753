@@ -6,7 +6,7 @@ h1#site-title {
     font-family: Helvetica;
     text-align: center;
     padding: 20px;
-    font-size: 72px;
+    font-size: 92px;
     color: darkgreen;
 }
 h2 {
@@ -79,12 +79,14 @@ li {
     font-style: italic;
 }
 .footer-nav {
-    border-top: 10px;
     list-style: none;
-    border-color: darkgreen;
+    padding-top: 20px;
+
 }
 #page-footer {
     font-size: smaller;
+    border-top: 10px;
+    border-color: darkgreen;
   }
 #footer-image {
     width: 200px;
