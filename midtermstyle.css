@@ -8,6 +8,7 @@ h1#site-title {
     padding: 20px;
     font-size: 72px;
     color: darkgreen;
+    ;
 }
 h2 {
     font-family: Arial;
@@ -52,13 +53,13 @@ p {
     text-decoration: underline;
 }
 #page-nav-img {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     object-fit: scale-down;
     border: 1px solid darkgreen;
     border-radius: 4px;
     padding: 5px;
-
+    align-items: center;
 }
 .page-nav {
     list-style: square inside;
