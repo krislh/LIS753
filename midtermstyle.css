@@ -94,18 +94,13 @@ figcaption {
     list-style: none;
     padding-top: 20px;
 }
-#page-footer {
+footer#page-footer {
     font-size: medium;
     border-top: 10px;
     border-color: darkgreen;
   }
-#footer-image {
-    width: 100px;
-    height: 200px;
-    float: right;
-  }
 .footer-copyright {
     text-align: left;
     font-size: small;
-    margin-left: 60px;
+    margin-left: 50px;
   }
