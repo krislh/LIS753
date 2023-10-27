@@ -52,7 +52,7 @@ p {
     display: block;
     background-color: darkgreen;
 }
-.site-nav-item a {
+site-nav .site-nav-item a {
     color:seashell;
     text-decoration: none;
 }
@@ -60,17 +60,16 @@ p {
     text-decoration: underline;
 }
 .page-nav {
-    list-style: circle;
-    padding: 5px;
+    list-style: none;
     text-align: left;
     font-family: Arial;
 }
 .page-nav-item {
     text-decoration: none;
-    padding: 8px;
+    padding: 1px;
     text-align: left;
 }
-.page-nav-item a {
+page-nav .page-nav-item a {
     text-decoration: none;
 }
 .page-nav .page-nav-item a:hover {
