@@ -66,7 +66,7 @@ site-nav .site-nav-item a {
 }
 .page-nav-item {
     text-decoration: none;
-    padding: 1px;
+    padding: 3px;
     text-align: left;
 }
 page-nav .page-nav-item a {
@@ -91,6 +91,7 @@ figcaption {
     font-family: Arial;
     text-align: center;
     list-style: none;
+    padding: 5px;
 }
 .footer-nav {
     list-style: none;
