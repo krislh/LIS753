@@ -62,6 +62,7 @@ site-nav .site-nav-item a {
 .page-nav {
     list-style: none;
     text-align: left;
+    padding: 3px;
     font-family: Arial;
 }
 .page-nav-item {
