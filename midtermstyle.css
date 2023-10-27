@@ -73,7 +73,7 @@ p {
 .page-nav-item {
     text-decoration: none;
     padding: 8px;
-    text-align: left;
+    justify-content: left;
 
 }
 .page-nav .page-nav-item a:hover {
@@ -83,7 +83,7 @@ p {
 #section-1 {
     text-align: center;
 }
-img {
+figure {
     padding: 5px;
     float: right;
 }
