@@ -68,13 +68,12 @@ p {
 .page-nav {
     list-style: upper-roman;
     padding: 5px;
-
+    text-align: left;
 }
 .page-nav-item {
     text-decoration: none;
     padding: 8px;
-    justify-content: left;
-
+    text-align: left;
 }
 .page-nav .page-nav-item a:hover {
     text-decoration: underline;
