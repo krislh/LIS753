@@ -45,16 +45,14 @@ p {
     justify-content: center;
     gap: 20px;
     list-style: none;
+    color: whitesmoke;
   }
 .site-nav-item {
     text-decoration: none;
     padding: 8px;
     display: block;
-    background-color: darkolivegreen;
+    background-color: darkgreen;
     color:whitesmoke;
-    border-top: 5px;
-    border-bottom: 5px;
-    border-color: darkgreen;
 }
 .site-nav .site-nav-item a:hover {
     text-decoration: underline;
