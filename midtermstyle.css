@@ -40,23 +40,24 @@ p {
     text-align: center;
     font-size: medium;
 }
-  .site-nav {
+.site-nav {
     display: flex;
     justify-content: center;
     gap: 20px;
     list-style: none;
-    color: whitesmoke;
   }
 .site-nav-item {
     text-decoration: none;
     padding: 8px;
     display: block;
     background-color: darkgreen;
-    color:whitesmoke;
+}
+.site-nav-item a {
+    color:seashell;
+    text-decoration: none;
 }
 .site-nav .site-nav-item a:hover {
     text-decoration: underline;
-    text-emphasis-color: whitesmoke;
 }
 .page-nav {
     list-style: circle;
@@ -69,9 +70,11 @@ p {
     padding: 8px;
     text-align: left;
 }
+.page-nav-item a {
+    text-decoration: none;
+}
 .page-nav .page-nav-item a:hover {
     text-decoration: underline;
-    text-decoration-color: darkgreen;
 }
 #section-1 {
     text-align: center;
@@ -96,8 +99,6 @@ figcaption {
 }
 footer#page-footer {
     font-size: medium;
-    border-top: 10px;
-    border-color: darkgreen;
   }
 .footer-copyright {
     text-align: left;
