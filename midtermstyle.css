@@ -8,6 +8,7 @@ h1#site-title {
     padding: 20px;
     font-size: 92px;
     color: darkgreen;
+
 }
 h2 {
     font-family: Arial;
@@ -26,6 +27,14 @@ h4 {
     font-weight: bold;
     text-align:center;
     font-size: medium;
+}
+.quote {
+    font-family:Arial;
+    font-weight:bold;
+    font-style:italic;
+    font-size:larger;
+    font-display:inherit
+
 }
 p {
     font-family: Arial;
@@ -73,10 +82,15 @@ p {
 #section-1 {
     text-align: center;
 }
+img {
+    padding: 5px;
+    float: left;
+}
 li {
     font-size: large;
     font-family: Arial;
     font-style: italic;
+    text-align: center;
 }
 .footer-nav {
     list-style: none;
