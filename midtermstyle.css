@@ -52,11 +52,11 @@ p {
     display: block;
     background-color: darkgreen;
 }
-site-nav .site-nav-item a {
+.site-nav-item a {
     color:seashell;
     text-decoration: none;
 }
-.site-nav .site-nav-item a:hover {
+.site-nav-item a:hover {
     text-decoration: underline;
 }
 .page-nav {
@@ -70,10 +70,10 @@ site-nav .site-nav-item a {
     padding: 3px;
     text-align: left;
 }
-page-nav .page-nav-item a {
+.page-nav-item a {
     text-decoration: none;
 }
-.page-nav .page-nav-item a:hover {
+.page-nav-item a:hover {
     text-decoration: underline;
 }
 #section-1 {
