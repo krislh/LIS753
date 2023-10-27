@@ -66,9 +66,10 @@ p {
     text-emphasis-color: whitesmoke;
 }
 .page-nav {
-    list-style: upper-roman;
+    list-style: circle;
     padding: 5px;
     text-align: left;
+    font-family: Arial;
 }
 .page-nav-item {
     text-decoration: none;
@@ -94,7 +95,6 @@ figcaption {
 .items-list {
     font-size: large;
     font-family: Arial;
-    font-style: italic;
     text-align: center;
     list-style: none;
 }
@@ -104,7 +104,7 @@ figcaption {
 
 }
 #page-footer {
-    font-size: smaller;
+    font-size: medium;
     border-top: 10px;
     border-color: darkgreen;
   }
@@ -115,4 +115,8 @@ figcaption {
     border: 1px solid darkgreen;
     border-radius: 4px;
     float: right;
+  }
+.footer-copyright {
+    text-align: left;
+    font-size: small;
   }
