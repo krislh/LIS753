@@ -73,6 +73,7 @@ p {
 .page-nav-item {
     text-decoration: none;
     padding: 8px;
+    text-align: left;
 
 }
 .page-nav .page-nav-item a:hover {
@@ -84,7 +85,12 @@ p {
 }
 img {
     padding: 5px;
-    float: left;
+    float: right;
+}
+figcaption {
+    font-family:Arial;
+    font-size: smaller;
+
 }
 li {
     font-size: large;
