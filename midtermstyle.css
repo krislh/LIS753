@@ -91,11 +91,12 @@ figcaption {
     font-size: smaller;
 
 }
-li {
+.items-list {
     font-size: large;
     font-family: Arial;
     font-style: italic;
     text-align: center;
+    list-style: none;
 }
 .footer-nav {
     list-style: none;
