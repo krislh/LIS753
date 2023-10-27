@@ -45,9 +45,6 @@ p {
     justify-content: center;
     gap: 20px;
     list-style: none;
-    border-top: 5px;
-    border-bottom: 5px;
-    border-bottom: darkgreen;
   }
 .site-nav-item {
     text-decoration: none;
@@ -89,10 +86,6 @@ figcaption {
     font-family:Arial;
     font-size: smaller;
 }
-img {
-    border: 1px darkgreen;
-    padding: 1px;
-}
 .items-list {
     font-size: medium;
     font-family: Arial;
@@ -116,5 +109,5 @@ img {
 .footer-copyright {
     text-align: left;
     font-size: small;
-    margin-left: 20px;
+    margin-left: 60px;
   }
