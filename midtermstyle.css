@@ -8,7 +8,6 @@ h1#site-title {
     padding: 20px;
     font-size: 92px;
     color: darkgreen;
-
 }
 h2 {
     font-family: Arial;
@@ -41,7 +40,6 @@ p {
     text-align: center;
     font-size: medium;
 }
-
   .site-nav {
     display: flex;
     justify-content: center;
@@ -90,7 +88,10 @@ figure {
 figcaption {
     font-family:Arial;
     font-size: smaller;
-
+}
+img {
+    border: 1px darkgreen;
+    padding: 1px;
 }
 .items-list {
     font-size: medium;
@@ -101,7 +102,6 @@ figcaption {
 .footer-nav {
     list-style: none;
     padding-top: 20px;
-
 }
 #page-footer {
     font-size: medium;
@@ -111,9 +111,6 @@ figcaption {
 #footer-image {
     width: 100px;
     height: 200px;
-    object-fit: scale-down;
-    border: 1px solid darkgreen;
-    border-radius: 4px;
     float: right;
   }
 .footer-copyright {
