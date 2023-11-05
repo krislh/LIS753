@@ -4,12 +4,9 @@ h1#site-title {
   font-size: 48px;
   margin-left: 35px;
   text-align: center;
-  outline-width: 18px;
-  outline-style: solid;
-  outline-color: #5A644D;
 }
 body {
-  background-color: palegoldenrod;
+  background-color: rgb(243, 241, 221);
 }
 h1#article-title {
   color: #5A644D;
@@ -44,13 +41,15 @@ img {
     height: auto;
     margin-bottom: 6px;
   }
-  figure.main-image  {
-    padding: 12px;
-    height: auto;
-    max-width: 100%;
-    height: auto;
+  @media all and (min-width: 768px) {
+    figure.main-image  {
+      padding: 12px;
+      height: auto;
+      max-width: 100%;
+      height: auto;
+    }
   }
-  figure.section-image {
+   figure.section-image {
     border:#5A644D;
     padding: 12px;
     max-width: 100%;
