@@ -24,6 +24,10 @@ h2 {
   font-size: 25px;
   text-align: left;
   }
+img {
+  max-width: 100%;
+  height: auto;
+}
   p {    
     font-family: verdana;
     color: black ;
@@ -36,27 +40,30 @@ h2 {
   }
     figure img {
     border: 3px solid #5A644D;
-    width: auto;
+    max-width: 100%;
     height: auto;
     margin-bottom: 6px;
   }
   figure.main-image  {
     padding: 12px;
-    width: auto;
     height: auto;
-
+    max-width: 100%;
+    height: auto;
   }
   figure.section-image {
     border:#5A644D;
     padding: 12px;
+    max-width: 100%;
+    height: auto;
   }
   p img {
     border: 4px solid #5A644D;
     float: right;
     height: auto;
-    width: auto;
     margin-right: 40px;
     margin-left: 20px;
+    max-width: 100%;
+    height: auto;
   }
     figcaption {
     font-family: verdana;
