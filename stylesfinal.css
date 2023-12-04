@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  margin: 60px;
+}
+body.dark-mode {
+  background: #010101;
+  color: #ffffff;
+}
+body.dark-mode button {
+  background-color: #ffffff; 
+}
+.container {
+  padding: 12px 0;
+  width: 95%;
+  margin: 0 auto;
+}
+.footer-nav {
+  list-style: none;
+  padding-top: 20px;
+}
+footer#page-footer {
+  font-size: medium;
+}
+.footer-copyright {
+  text-align: left;
+  font-size: small;
+  margin-left: 50px;
+}
