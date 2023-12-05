@@ -127,15 +127,13 @@ img {
 }
 .cookbooks {
   list-style: none;
-  padding: 5px;
+  padding: 8px;
   margin-left: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  color:darkgreen;
+  font-family:Arial, Helvetica, sans-serif;
 }
 .cookbooks-item {
   color: darkgreen;
   text-decoration: none;
-  padding: 8px;
 }
 .cookbooks-item a {
   text-decoration: none;
