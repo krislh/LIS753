@@ -134,6 +134,7 @@ img {
 .cookbooks-item {
   color: darkgreen;
   text-decoration: none;
+  padding: 5px;
 }
 .cookbooks-item a {
   text-decoration: none;
