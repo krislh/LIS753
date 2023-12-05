@@ -121,3 +121,21 @@ figure.main-image {
 img {
   border: 1px solid;
 }
+#maincontent {
+  padding: 10px;
+  margin-bottom: 60px;
+}
+.cookbooks {
+  list-style: none;
+  padding: 5px;
+}
+.cookbooks-item {
+  text-decoration: none;
+  padding: 8px;
+}
+.cookbooks-item a {
+  text-decoration: none;
+}
+.cookbooks-item a:hover {
+  text-decoration: underline;
+}
