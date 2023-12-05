@@ -116,6 +116,7 @@ figure.main-image {
   border: 3px solid darkseagreen;
   font-size: smaller;
   font-style: italic;
+  text-align: center;
 }
 img {
   border: 1px solid;
