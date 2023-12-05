@@ -48,18 +48,6 @@ p {
   margin-left: 60px;
   font-family: Arial, Helvetica, sans-serif;
 }
-figure.main-image {
-  float: right;
-  border: 3px solid darkseagreen;
-}
-img {
-  border: 1px solid;
-  }
-  figcaption {
-    font-size: smaller;
-    text-align: center;
-    font-style: italic;
-  }
 .site-nav {
   display: flex;
   justify-content: center;
@@ -122,4 +110,13 @@ footer#page-footer {
     max-width: 100%;
     height: auto;
   }
+}
+figure.main-image {
+  float: left;
+  border: 3px solid darkseagreen;
+  font-size: smaller;
+  font-style: italic;
+}
+img {
+  border: 1px solid;
 }
