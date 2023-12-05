@@ -4,7 +4,7 @@ body {
   margin: 60px;
 }
 body.dark-mode {
-  background: #010101;
+  background: #003300;
   color: #ffffff;
 }
 body.dark-mode button {
@@ -20,13 +20,13 @@ h1 {
   text-align: center;
   padding: 20px;
   font-size: 92px;
-  color: darkseagreen;
+  color: #136F3F;
 }
 h2 {
   font-family: Arial;
   font-size: 60px;
   padding: 15px;
-  
+
 }
 h3 {
   margin: 60px;
@@ -37,8 +37,14 @@ h4 {
   margin: 60px;
   font-family: Arial, Helvetica, sans-serif;
 }
+ul li {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
 p {
-  margin: 60px;
+  margin-left: 20px;
+  padding-bottom: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .site-nav {
